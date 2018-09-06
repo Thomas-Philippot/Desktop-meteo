@@ -37,7 +37,7 @@
         <v-spacer></v-spacer>
       </v-toolbar>
       <v-content>
-        <v-container fluid fill-height>
+        <v-container fluid >
           <v-slide-y-transition mode="out-in">
             <router-view></router-view>
           </v-slide-y-transition>
@@ -53,20 +53,19 @@
 
 <script>
   export default {
-    name: 'my-project',
+    name: 'Météo app',
     data: () => ({
       clipped: false,
       drawer: false,
       fixed: false,
       items: [
         { icon: 'fas fa-home', title: 'Welcome', to: '/' },
-        { icon: 'fas fa-lightbulb', title: 'Inspire', to: '/inspire' },
-        { icon: 'fas fa-leaf', title: 'RM', to: '/rm' }
+        { icon: 'fas fa-info-circle', title: 'About', to: '/about' }
       ],
       miniVariant: false,
       right: true,
       rightDrawer: false,
-      title: 'My awesome APP'
+      title: 'Météo App'
     }),
     methods: {
       back () {
