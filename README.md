@@ -1,4 +1,4 @@
-# my-project
+# Desktop Météo
 
 > An electron-vue project
 
