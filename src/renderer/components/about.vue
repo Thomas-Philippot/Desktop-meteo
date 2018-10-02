@@ -3,7 +3,7 @@
         <v-card>
             <v-card-title class="headline">About me</v-card-title>
             <v-card-text>
-                <p>French 21 years old student/developer.</p>
+                <p>French 21 years old student and developer.</p>
                 <p>Working on VueJs with Electron, Native-script this is a simple app for me to learn more about the real power of vuejs.</p>
                 <p>Feel free to check out my social activity, this app is also available on my GitHub for Android and IOS</p>
                 <v-btn icon href="https://github.com/Thomas-Philippot/" target="_blank">
