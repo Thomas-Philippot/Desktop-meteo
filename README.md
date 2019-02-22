@@ -1,6 +1,8 @@
 # Desktop Météo
 
 > An electron-vue project
+> As the project is mainly for testing purpose This project use a private API but the access token is writen in the source code.
+> This is not a good way to do it, remeber to store these kind of data in .env file.
 
 #### Build Setup
 
@@ -22,7 +24,6 @@ npm test
 npm run lint
 
 ```
-
 ---
 
 This project was generated with [electron-vue](https://github.com/SimulatedGREG/electron-vue)@[fad1966](https://github.com/SimulatedGREG/electron-vue/tree/fad1966ffb4b7f27639e224bbbebf349f7ef7d8a) using [vue-cli](https://github.com/vuejs/vue-cli). Documentation about the original structure can be found [here](https://simulatedgreg.gitbooks.io/electron-vue/content/index.html).
